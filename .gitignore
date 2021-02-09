@@ -1,0 +1,6 @@
+venv
+*.egg-info
+~$*
+example/**/*.docx
+/*.docx
+.DS_Store

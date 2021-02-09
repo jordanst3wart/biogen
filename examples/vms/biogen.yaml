@@ -1,0 +1,38 @@
+template: vms
+first_name: Andrew
+last_name: Ivins
+current_role: Lead Engineer
+personal_profile: |
+ Managed Services Engineer
+experience:
+  - job_title: Lead Engineer
+    company: Versent
+    location: Perth
+  - job_title: DevOps Manager
+    company: CorpCloud
+    location: Perth
+  - job_title: Software Developer
+    company: Murdoch University
+    location: Perth
+sre_experience:
+  service_management: >-
+    I have lots of Service Management experience. I'm very experienced at Managing the Services
+    for the People who have Services that they need Managed.
+  devops: >-
+    I have 20 years experiencing in Operating the Devs, and many more in Developing the Ops.
+  current: >-
+    I am currently engaged to my partner of 5 years. She is my sunshine. The reason I get up
+    in the morning. Oh wait, you meant work? Never mind...    
+skills:
+  - skill: AWS
+  - skill: Development
+    skills:
+      - Python
+      - Javascript
+  - skill: Finding excuses to turn things into development products
+certifications:
+  - Least Likely To Succeed WSHS 1995
+  - Cisco Certified Network Associate
+qualifications:
+  - BSc. Computer Science, Edith Cowan University 1997-2002
+  - School of Hard Knocks something something something...

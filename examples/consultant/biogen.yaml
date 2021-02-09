@@ -1,0 +1,44 @@
+template: consultant
+first_name: Andrew
+last_name: Ivins
+current_role: Senior DevOps Engineer at Versent
+personal_profile: |
+ Software developer with a background in systems and networks.
+experience:
+  - job_title: Senior DevOps Engineer
+    company: Versent
+    location: Perth
+  - job_title: DevOps Manager
+    company: CorpCloud
+    location: Perth
+  - job_title: Software Developer
+    company: Murdoch University
+    location: Perth
+projects:
+  - name: BCU Website Migration
+    customer: P&amp;N Bank
+    industry: Finance
+    description: >-
+      Migration of website www.bcu.com.au from physical data centre and uplift into AWS.
+      This project involved architecture and design, implementation, training, and operational
+      support.
+  - name: BCU Website Migration Again
+    customer: P&amp;N Bank
+    industry: Finance
+    description: >-
+      Didn't have enough for a bio, so did it all over again.
+  - name: BCU Website Migration Yet Again
+    customer: P&amp;N Bank
+    industry: Finance
+    description: >-
+      My dog ate the project, so sadly, it had to be redone from scratch. Again.
+skills:
+  - skill: AWS
+  - skill: Development
+    skills:
+      - Python
+      - Javascript
+  - skill: Finding excuses to turn things into development products
+certifications:
+  - Least Likely To Succeed WSHS 1995
+  - Cisco Certified Network Associate
