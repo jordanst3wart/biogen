@@ -20,9 +20,9 @@ setup(
             'templates/consultant.docx',
             'templates/vms.docx',
             'examples/consultant/biogen.yaml',
-            'examples/consultant/portrait.yaml',
+            'examples/consultant/portrait.jpg',
             'examples/vms/biogen.yaml',
-            'examples/vms/portrait.yaml',
+            'examples/vms/portrait.jpg',
         ]
     }
 )
