@@ -31,7 +31,7 @@ Output file looks like this:
 To install globally:
 
 ```
-pip3 install https://github.com/andrewivins/biogen/archive/master.tar.gz 
+pip3 install git+ssh://git@github.com/Versent/biogen.git@master
 ```
 
 `biogen` should now be on your $PATH to run from anywhere.
