@@ -1,11 +1,22 @@
 template: consultant
 first_name: Andrew
 last_name: Ivins
-current_role: Senior DevOps Engineer at Versent
-personal_profile: |
- Software developer with a background in systems and networks.
+current_role: Lead Engineer
+personal_profile: >-
+  Andrew is a Cloud Engineer with over 20 years professional experience including
+  AWS, Application Development, System Administration, and TCP/IP networking.
+
+
+  He has spent most of his career in the telecommunications industry, beginning
+  in a support role during the early days of the Australian ISP scene where he became
+  an advocate of Linux and open-source. First and foremost a programmer, Andrew is a
+  DevOps and Cloud-native evangelist that leverages his diverse background through code.
+
+
+  Through two stints as a founding employee of technology startups, Andrew has gained
+  a passion for leadership, mentoring, and consulting.
 experience:
-  - job_title: Senior DevOps Engineer
+  - job_title: Lead Engineer
     company: Versent
     location: Perth
   - job_title: DevOps Manager
@@ -19,26 +30,60 @@ projects:
     customer: P&amp;N Bank
     industry: Finance
     description: >-
-      Migration of website www.bcu.com.au from physical data centre and uplift into AWS.
+      Migration of website bcu.com.au from physical data centre and uplift into AWS.
       This project involved architecture and design, implementation, training, and operational
-      support.
-  - name: BCU Website Migration Again
-    customer: P&amp;N Bank
-    industry: Finance
+      support. We delivered an SSO-enabled multi-account solution with tiered security zones,
+      multi-AZ availability and a novel event-driven approach for interfacing with an external
+      on-premises system.
+  - name: Unified Communications Solution
+    customer: CorpCloud
+    industry: Telecommunications
     description: >-
-      Didn't have enough for a bio, so did it all over again.
-  - name: BCU Website Migration Yet Again
-    customer: P&amp;N Bank
-    industry: Finance
+      Design, development, and technical leadership of a cloud-based VoIP PBX system and web-based GUI. This project was
+      designed from the beginning to be cloud native, leveraging existing AWS services, and deploying
+      all units as ECS-managed Docker containers. REST APIs were designed and implemented for cross-service
+      communication and authenticated REST and GraphQL endpoints were exposed publicly to drive the
+      web GUI and for general.
+  - name: Service Provisioning System
+    customer: CorpCloud
+    industry: Telecommunications
     description: >-
-      My dog ate the project, so sadly, it had to be redone from scratch. Again.
+      Design, development, and technical leadership of extensible service provisioning system, responsible
+      for managing service state, workflows, and service enablement automation. This project included flexible
+      data modelling to support existing and future services, a distributed task queue for background processing,
+      and a web-based GUI for support staff to operate.
 skills:
-  - skill: AWS
+  - skill: Cloud
+    skills:
+      - AWS
+      - Linux
+      - Windows
+      - Infrastructure as Code
+      - Architecture
+      - Serverless/Lambda
+      - Containerization
+      - Security
+      - CI/CD
   - skill: Development
     skills:
       - Python
       - Javascript
-  - skill: Finding excuses to turn things into development products
+      - Web/React
+      - SQL
+      - REST
+      - GraphQL
+      - Full-Stack
+      - Testing
+  - skill: Networking
+    skills: 
+      - TCP/IP routing/switching
+      - Internet protocols
+      - Telephony
+      - VoIP
+      - RADIUS
+  - skill: Strategy
+    skills:
+      - Team leadership, Consulting, Analysis, Agile
 certifications:
-  - Least Likely To Succeed WSHS 1995
   - Cisco Certified Network Associate
+  - AWS Certified Cloud Practicioner (in progress)
