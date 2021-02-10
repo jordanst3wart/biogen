@@ -26,6 +26,8 @@ Output file looks like this:
 
 ## Installing
 
+**Requires python3**
+
 To install globally:
 
 ```
