@@ -17,7 +17,12 @@ setup(
     include_package_data=True,
     package_data={
         'biogen': [
-            'templates/consultant.docx'
+            'templates/consultant.docx',
+            'templates/vms.docx',
+            'examples/consultant/biogen.yaml',
+            'examples/consultant/portrait.yaml',
+            'examples/vms/biogen.yaml',
+            'examples/vms/portrait.yaml',
         ]
     }
 )

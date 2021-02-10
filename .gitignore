@@ -1,6 +1,7 @@
 venv
 *.egg-info
 ~$*
-example/**/*.docx
+biogen/examples/**/*.docx
 /*.docx
 .DS_Store
+my_versent_bio
